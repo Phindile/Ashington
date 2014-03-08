@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <!DOCTYPE XMI SYSTEM "/home/chrisy/.netbeans/8.0beta/.uml/config/UML_2.0EMBT.dtd"> --><XMI xmlns:UML="omg.org/UML/1.4" xmi.version="2.0"> <XMI.header> <XMI.metamodel xmi.name="UML" xmi.version="1.4"/> <XMI.documentation> <XMI.exporter> Embarcadero's Describe </XMI.exporter> <XMI.exporterVersion> 6.0 </XMI.exporterVersion> </XMI.documentation> </XMI.header> <XMI.content> <UML:Project xmi.id="DCE.8BB7CD0A-BAC0-C211-A0E9-4F988A8DFF75" mode="Implementation" defaultLanguage="Java" projVersion="6.1.4.837" name="ATMBankUML"><UML:Element.ownedElement>
+<UML:Class xmi.id="DCE.1A346EBA-ABA8-79B0-EC65-7D9568B02439" name="Money" owner="DCE.8BB7CD0A-BAC0-C211-A0E9-4F988A8DFF75" clientDependency="DCE.ED2C6CBD-364E-E849-B02F-49D1FFB8FBEC DCE.283FE4D7-69BE-BD12-ACDC-8B89D7536DB0"><UML:Element.presentation>
+</UML:Element.presentation><UML:Element.ownedElement>
+<UML:Operation xmi.id="DCE.A3DE5A3C-E591-57C2-BF68-99951214EE25" name="Money" isConstructor="true" owner="DCE.1A346EBA-ABA8-79B0-EC65-7D9568B02439"><UML:Element.presentation>
+</UML:Element.presentation></UML:Operation></UML:Element.ownedElement></UML:Class>
+<UML:Package xmi.id="DCE.C8E4FBE9-81BB-CDAB-D99C-141E07739FEF" name="BankATM" owner="DCE.8BB7CD0A-BAC0-C211-A0E9-4F988A8DFF75" clientDependency="DCE.8CF8ACFB-AFF4-5D53-5566-0272B13813C4 DCE.546F3130-8A57-0C6C-1416-4454D04E5245" supplierDependency="DCE.20D397DE-EFBC-2FFB-8AB1-7037E9B429C7 DCE.8CF8ACFB-AFF4-5D53-5566-0272B13813C4 DCE.301E7565-ACFF-2119-2408-2F87FD1BD4AC DCE.9C566D49-08B7-5BD0-8E9D-8B795481EB10 DCE.0856CC65-3D99-4E56-407E-4B37D5DB536B"><UML:Element.presentation>
+</UML:Element.presentation></UML:Package>
+<UML:Class xmi.id="DCE.7F051DB5-6E2B-8832-88F7-769CEF742088" name="Balance" owner="DCE.8BB7CD0A-BAC0-C211-A0E9-4F988A8DFF75" supplierDependency="DCE.283FE4D7-69BE-BD12-ACDC-8B89D7536DB0"><UML:Element.presentation>
+</UML:Element.presentation><UML:Element.ownedElement>
+<UML:Operation xmi.id="DCE.28D6BE39-4457-D859-07F7-ECFDABDED865" name="Balance" isConstructor="true" owner="DCE.7F051DB5-6E2B-8832-88F7-769CEF742088"><UML:Element.presentation>
+</UML:Element.presentation></UML:Operation></UML:Element.ownedElement></UML:Class>
+<UML:Class xmi.id="DCE.5DE6A3BD-C050-0F85-D2EA-E3B0CDD85FFE" name="ATMMessage" owner="DCE.8BB7CD0A-BAC0-C211-A0E9-4F988A8DFF75" clientDependency="DCE.C608E8BE-A6D4-1D62-A02B-4BF12A435E23"><UML:Element.presentation>
+</UML:Element.presentation><UML:Element.ownedElement>
+<UML:Operation xmi.id="DCE.AA96EB79-D4C9-CCD3-868D-A70C319341ED" name="ATMMessage" isConstructor="true" owner="DCE.5DE6A3BD-C050-0F85-D2EA-E3B0CDD85FFE"><UML:Element.presentation>
+</UML:Element.presentation></UML:Operation></UML:Element.ownedElement></UML:Class>
+<UML:Class xmi.id="DCE.2539B214-DEE9-FD12-1169-91AF26701A05" name="ATMLog" owner="DCE.8BB7CD0A-BAC0-C211-A0E9-4F988A8DFF75" supplierDependency="DCE.597A72C2-676A-C403-825A-32461FBF4A25"><UML:Element.presentation>
+</UML:Element.presentation><UML:Element.ownedElement>
+<UML:Operation xmi.id="DCE.FADCF5CB-C341-EE40-B5B7-E91B2CE1B21E" name="ATMLog" isConstructor="true" owner="DCE.2539B214-DEE9-FD12-1169-91AF26701A05"><UML:Element.presentation>
+</UML:Element.presentation></UML:Operation></UML:Element.ownedElement></UML:Class>
+<UML:Class xmi.id="DCE.659BCF40-B8E5-29EB-6247-AC23DAB4F682" name="ATMStatus" owner="DCE.8BB7CD0A-BAC0-C211-A0E9-4F988A8DFF75" clientDependency="DCE.20D397DE-EFBC-2FFB-8AB1-7037E9B429C7" supplierDependency="DCE.C608E8BE-A6D4-1D62-A02B-4BF12A435E23"><UML:Element.presentation>
+</UML:Element.presentation><UML:Element.ownedElement>
+<UML:Operation xmi.id="DCE.78A702AE-0358-BCF2-3254-79D053F6A821" name="ATMStatus" isConstructor="true" owner="DCE.659BCF40-B8E5-29EB-6247-AC23DAB4F682"><UML:Element.presentation>
+</UML:Element.presentation></UML:Operation></UML:Element.ownedElement></UML:Class>
+<UML:Class xmi.id="DCE.2A65F034-11AC-AB67-17AF-FCDBCBC49D8C" name="Reciept" owner="DCE.8BB7CD0A-BAC0-C211-A0E9-4F988A8DFF75"><UML:Element.presentation>
+</UML:Element.presentation><UML:Element.ownedElement>
+<UML:Operation xmi.id="DCE.EE8DA9A9-C9FC-5627-0A32-D1186422CDC8" name="Reciept" isConstructor="true" owner="DCE.2A65F034-11AC-AB67-17AF-FCDBCBC49D8C"><UML:Element.presentation>
+</UML:Element.presentation></UML:Operation></UML:Element.ownedElement></UML:Class>
+<UML:Class xmi.id="DCE.A333811C-FBCF-B54C-82ED-7F97F9FA78BC" name="CashDEspense" owner="DCE.8BB7CD0A-BAC0-C211-A0E9-4F988A8DFF75" supplierDependency="" clientDependency="DCE.301E7565-ACFF-2119-2408-2F87FD1BD4AC DCE.597A72C2-676A-C403-825A-32461FBF4A25"><UML:Element.presentation>
+</UML:Element.presentation><UML:Element.ownedElement>
+<UML:Operation xmi.id="DCE.E8562A13-E5DA-F7F3-4F0C-D64B571F761E" name="CashDEspense" isConstructor="true" owner="DCE.A333811C-FBCF-B54C-82ED-7F97F9FA78BC"><UML:Element.presentation>
+</UML:Element.presentation></UML:Operation></UML:Element.ownedElement></UML:Class>
+<UML:Interface xmi.id="DCE.8CEDB464-D168-0B10-3226-C73072AB04E7" name="Unnamed" isAbstract="true" owner="DCE.8BB7CD0A-BAC0-C211-A0E9-4F988A8DFF75" appliedStereotype="__uri_./ATMBankUML.etup#//*[@xmi.id=&quot;DCE.FDE55AF2-8786-DB22-E521-A3D6BCB33C8E&quot;]"><UML:Element.presentation>
+</UML:Element.presentation></UML:Interface>
+<UML:Class xmi.id="DCE.19488190-D32C-3CF5-3A35-2F6ECB893C56" name="EnvolopAcceptor" owner="DCE.8BB7CD0A-BAC0-C211-A0E9-4F988A8DFF75" clientDependency="DCE.C831D2CE-C586-C39A-4EE3-11E90DA2064B DCE.A46B25E1-8BCA-1864-9C5C-EF57CDF16874 DCE.E5852250-204A-2462-AF47-DBB86794B626 DCE.624EB4FD-3F4A-6DE2-D5D5-943F44DDF090 DCE.0856CC65-3D99-4E56-407E-4B37D5DB536B"><UML:Element.presentation>
+</UML:Element.presentation><UML:Element.ownedElement>
+<UML:Operation xmi.id="DCE.73B5422C-73F0-B4CD-70CC-DBDF0ECCB5D1" name="EnvolopAcceptor" isConstructor="true" owner="DCE.19488190-D32C-3CF5-3A35-2F6ECB893C56"><UML:Element.presentation>
+</UML:Element.presentation></UML:Operation></UML:Element.ownedElement></UML:Class>
+<UML:Class xmi.id="DCE.945782EB-C13E-1811-454E-570789AE9774" name="CardReader" owner="DCE.8BB7CD0A-BAC0-C211-A0E9-4F988A8DFF75" clientDependency="DCE.4CC9469A-A9C3-6FB4-AA68-1C5E0562425A"><UML:Element.presentation>
+</UML:Element.presentation><UML:Element.ownedElement>
+<UML:Operation xmi.id="DCE.1A29843E-5B38-FEE0-4D3D-68A3F38B86F1" name="CardReader" isConstructor="true" owner="DCE.945782EB-C13E-1811-454E-570789AE9774"><UML:Element.presentation>
+</UML:Element.presentation></UML:Operation></UML:Element.ownedElement></UML:Class>
+<UML:Class xmi.id="DCE.399B7FEB-B3A7-6D59-60A7-891C04E9208C" name="Card" owner="DCE.8BB7CD0A-BAC0-C211-A0E9-4F988A8DFF75" supplierDependency="DCE.4CC9469A-A9C3-6FB4-AA68-1C5E0562425A DCE.46DEA87A-5EEF-D8CC-47C1-6369BF3F0169"><UML:Element.presentation>
+</UML:Element.presentation><UML:Element.ownedElement>
+<UML:Operation xmi.id="DCE.9CF067DA-E8F5-7914-0C87-E77B127AFE9D" name="Card" isConstructor="true" owner="DCE.399B7FEB-B3A7-6D59-60A7-891C04E9208C"><UML:Element.presentation>
+</UML:Element.presentation></UML:Operation></UML:Element.ownedElement></UML:Class>
+<UML:Class xmi.id="DCE.981CB9FC-EFE4-61CF-E361-E550DC94C818" name="MenuConsole" owner="DCE.8BB7CD0A-BAC0-C211-A0E9-4F988A8DFF75" supplierDependency="" clientDependency="DCE.AFCBBF60-7E00-D3EF-E8C8-930EB3B018C4 DCE.9C566D49-08B7-5BD0-8E9D-8B795481EB10"><UML:Element.presentation>
+</UML:Element.presentation><UML:Element.ownedElement>
+<UML:Operation xmi.id="DCE.BD44882D-DF4C-E9B5-E700-1936FFC8C6F9" name="MenuConsole" isConstructor="true" owner="DCE.981CB9FC-EFE4-61CF-E361-E550DC94C818"><UML:Element.presentation>
+</UML:Element.presentation></UML:Operation></UML:Element.ownedElement></UML:Class>
+<UML:Dependency xmi.id="DCE.20D397DE-EFBC-2FFB-8AB1-7037E9B429C7" owner="DCE.8BB7CD0A-BAC0-C211-A0E9-4F988A8DFF75" client="DCE.659BCF40-B8E5-29EB-6247-AC23DAB4F682" supplier="DCE.C8E4FBE9-81BB-CDAB-D99C-141E07739FEF"><UML:Element.presentation>
+</UML:Element.presentation></UML:Dependency>
+<UML:Dependency xmi.id="DCE.8CF8ACFB-AFF4-5D53-5566-0272B13813C4" owner="DCE.8BB7CD0A-BAC0-C211-A0E9-4F988A8DFF75" client="DCE.C8E4FBE9-81BB-CDAB-D99C-141E07739FEF" supplier="DCE.C8E4FBE9-81BB-CDAB-D99C-141E07739FEF"><UML:Element.presentation>
+</UML:Element.presentation></UML:Dependency>
+<UML:Interface xmi.id="DCE.4F5EA032-3623-3CB5-E11B-5EBB9D3EF1E5" name="ATMinter" isAbstract="true" owner="DCE.8BB7CD0A-BAC0-C211-A0E9-4F988A8DFF75" appliedStereotype="__uri_./ATMBankUML.etup#//*[@xmi.id=&quot;DCE.FDE55AF2-8786-DB22-E521-A3D6BCB33C8E&quot;]" supplierDependency="DCE.A8BB0911-9A5C-22BB-AC60-DBF29650971F"><UML:Element.presentation>
+</UML:Element.presentation></UML:Interface>
+<UML:Class xmi.id="DCE.75144B2E-C2FB-BF2D-9FD8-6BE059119396" name="Deposit" owner="DCE.8BB7CD0A-BAC0-C211-A0E9-4F988A8DFF75" clientDependency="DCE.A8BB0911-9A5C-22BB-AC60-DBF29650971F"><UML:Element.presentation>
+</UML:Element.presentation><UML:Element.ownedElement>
+<UML:Operation xmi.id="DCE.AFB9FCB2-B69F-7AF0-2459-63CC28F6BA48" name="Deposit" isConstructor="true" owner="DCE.75144B2E-C2FB-BF2D-9FD8-6BE059119396"><UML:Element.presentation>
+</UML:Element.presentation></UML:Operation></UML:Element.ownedElement></UML:Class>
+<UML:Interface xmi.id="DCE.E739403F-0595-2493-65C9-57E5689BF874" name="Unnamed" isAbstract="true" owner="DCE.8BB7CD0A-BAC0-C211-A0E9-4F988A8DFF75" appliedStereotype="__uri_./ATMBankUML.etup#//*[@xmi.id=&quot;DCE.FDE55AF2-8786-DB22-E521-A3D6BCB33C8E&quot;]" supplierDependency=""><UML:Element.presentation>
+</UML:Element.presentation></UML:Interface>
+<UML:Implementation xmi.id="DCE.A8BB0911-9A5C-22BB-AC60-DBF29650971F" owner="DCE.8BB7CD0A-BAC0-C211-A0E9-4F988A8DFF75" client="DCE.75144B2E-C2FB-BF2D-9FD8-6BE059119396" supplier="DCE.4F5EA032-3623-3CB5-E11B-5EBB9D3EF1E5"><UML:Element.presentation>
+</UML:Element.presentation></UML:Implementation>
+<UML:Class xmi.id="DCE.770C3581-579E-DD30-3960-C412032EEF8F" name="ATMSession" owner="DCE.8BB7CD0A-BAC0-C211-A0E9-4F988A8DFF75" supplierDependency="" clientDependency="DCE.46DEA87A-5EEF-D8CC-47C1-6369BF3F0169"><UML:Element.presentation>
+</UML:Element.presentation><UML:Element.ownedElement>
+<UML:Operation xmi.id="DCE.BFF14CB7-E07C-7DC0-3F63-9FEACD1296C5" name="ATMSession" isConstructor="true" owner="DCE.770C3581-579E-DD30-3960-C412032EEF8F"><UML:Element.presentation>
+</UML:Element.presentation></UML:Operation></UML:Element.ownedElement></UML:Class>
+<UML:Dependency xmi.id="DCE.4CC9469A-A9C3-6FB4-AA68-1C5E0562425A" owner="DCE.8BB7CD0A-BAC0-C211-A0E9-4F988A8DFF75" client="DCE.945782EB-C13E-1811-454E-570789AE9774" supplier="DCE.399B7FEB-B3A7-6D59-60A7-891C04E9208C"><UML:Element.presentation>
+</UML:Element.presentation></UML:Dependency>
+<UML:Class xmi.id="DCE.1CB42641-8066-A4FA-20D8-729923EF4E3D" name="Unnamed" owner="DCE.8BB7CD0A-BAC0-C211-A0E9-4F988A8DFF75"><UML:Element.presentation>
+</UML:Element.presentation></UML:Class>
+<UML:Dependency xmi.id="DCE.46DEA87A-5EEF-D8CC-47C1-6369BF3F0169" owner="DCE.8BB7CD0A-BAC0-C211-A0E9-4F988A8DFF75" client="DCE.770C3581-579E-DD30-3960-C412032EEF8F" supplier="DCE.399B7FEB-B3A7-6D59-60A7-891C04E9208C"><UML:Element.presentation>
+</UML:Element.presentation></UML:Dependency>
+<UML:Class xmi.id="DCE.EA8F5CEC-DE55-0D98-9BC4-C27599F733E1" name="Unnamed" owner="DCE.8BB7CD0A-BAC0-C211-A0E9-4F988A8DFF75" supplierDependency="DCE.AFCBBF60-7E00-D3EF-E8C8-930EB3B018C4"><UML:Element.presentation>
+</UML:Element.presentation></UML:Class>
+<UML:Dependency xmi.id="DCE.AFCBBF60-7E00-D3EF-E8C8-930EB3B018C4" owner="DCE.8BB7CD0A-BAC0-C211-A0E9-4F988A8DFF75" client="DCE.981CB9FC-EFE4-61CF-E361-E550DC94C818" supplier="DCE.EA8F5CEC-DE55-0D98-9BC4-C27599F733E1"><UML:Element.presentation>
+</UML:Element.presentation></UML:Dependency>
+<UML:Class xmi.id="DCE.B4ABAC29-F4ED-830E-FFD5-9A1A35A449F1" name="Unnamed" owner="DCE.8BB7CD0A-BAC0-C211-A0E9-4F988A8DFF75" supplierDependency="DCE.0DB2E7D2-A8BA-37F7-49B0-E1FEB61DF517" clientDependency="DCE.0DB2E7D2-A8BA-37F7-49B0-E1FEB61DF517"><UML:Element.presentation>
+</UML:Element.presentation></UML:Class>
+<UML:Dependency xmi.id="DCE.0DB2E7D2-A8BA-37F7-49B0-E1FEB61DF517" owner="DCE.8BB7CD0A-BAC0-C211-A0E9-4F988A8DFF75" client="DCE.B4ABAC29-F4ED-830E-FFD5-9A1A35A449F1" supplier="DCE.B4ABAC29-F4ED-830E-FFD5-9A1A35A449F1"><UML:Element.presentation>
+</UML:Element.presentation></UML:Dependency>
+<UML:Class xmi.id="DCE.1359CE8A-061B-1332-3F6F-03A6A70B5A21" name="Unnamed" owner="DCE.8BB7CD0A-BAC0-C211-A0E9-4F988A8DFF75" supplierDependency=""><UML:Element.presentation>
+</UML:Element.presentation></UML:Class>
+<UML:Dependency xmi.id="DCE.301E7565-ACFF-2119-2408-2F87FD1BD4AC" owner="DCE.8BB7CD0A-BAC0-C211-A0E9-4F988A8DFF75" client="DCE.A333811C-FBCF-B54C-82ED-7F97F9FA78BC" supplier="DCE.C8E4FBE9-81BB-CDAB-D99C-141E07739FEF"><UML:Element.presentation>
+</UML:Element.presentation></UML:Dependency>
+<UML:Class xmi.id="DCE.87DE1A2F-D136-7F4A-1698-397249A6DEDB" name="Unnamed" owner="DCE.8BB7CD0A-BAC0-C211-A0E9-4F988A8DFF75" supplierDependency=""><UML:Element.presentation>
+</UML:Element.presentation></UML:Class>
+<UML:Dependency xmi.id="DCE.9C566D49-08B7-5BD0-8E9D-8B795481EB10" owner="DCE.8BB7CD0A-BAC0-C211-A0E9-4F988A8DFF75" client="DCE.981CB9FC-EFE4-61CF-E361-E550DC94C818" supplier="DCE.C8E4FBE9-81BB-CDAB-D99C-141E07739FEF"><UML:Element.presentation>
+</UML:Element.presentation></UML:Dependency>
+<UML:Class xmi.id="DCE.8AD7116D-B601-7265-2E4D-8A7C5DAD7784" name="Unnamed" owner="DCE.8BB7CD0A-BAC0-C211-A0E9-4F988A8DFF75" supplierDependency="DCE.ED2C6CBD-364E-E849-B02F-49D1FFB8FBEC"><UML:Element.presentation>
+</UML:Element.presentation></UML:Class>
+<UML:Dependency xmi.id="DCE.ED2C6CBD-364E-E849-B02F-49D1FFB8FBEC" owner="DCE.8BB7CD0A-BAC0-C211-A0E9-4F988A8DFF75" client="DCE.1A346EBA-ABA8-79B0-EC65-7D9568B02439" supplier="DCE.8AD7116D-B601-7265-2E4D-8A7C5DAD7784"><UML:Element.presentation>
+</UML:Element.presentation></UML:Dependency>
+<UML:Class xmi.id="DCE.CC1F09B7-73F3-496F-ADC3-7A177DF1583D" name="Unnamed" owner="DCE.8BB7CD0A-BAC0-C211-A0E9-4F988A8DFF75" supplierDependency=""><UML:Element.presentation>
+</UML:Element.presentation></UML:Class>
+<UML:Dependency xmi.id="DCE.283FE4D7-69BE-BD12-ACDC-8B89D7536DB0" owner="DCE.8BB7CD0A-BAC0-C211-A0E9-4F988A8DFF75" client="DCE.1A346EBA-ABA8-79B0-EC65-7D9568B02439" supplier="DCE.7F051DB5-6E2B-8832-88F7-769CEF742088"><UML:Element.presentation>
+</UML:Element.presentation></UML:Dependency>
+<UML:Class xmi.id="DCE.7196EDD6-C298-B4E0-6208-B30269DD181E" name="Unnamed" owner="DCE.8BB7CD0A-BAC0-C211-A0E9-4F988A8DFF75" supplierDependency="DCE.546F3130-8A57-0C6C-1416-4454D04E5245"><UML:Element.presentation>
+</UML:Element.presentation></UML:Class>
+<UML:Dependency xmi.id="DCE.546F3130-8A57-0C6C-1416-4454D04E5245" owner="DCE.8BB7CD0A-BAC0-C211-A0E9-4F988A8DFF75" client="DCE.C8E4FBE9-81BB-CDAB-D99C-141E07739FEF" supplier="DCE.7196EDD6-C298-B4E0-6208-B30269DD181E"><UML:Element.presentation>
+</UML:Element.presentation></UML:Dependency>
+<UML:Class xmi.id="DCE.0C8BDA36-D1DC-57B5-DB8B-7ADE996ECF52" name="Unnamed" owner="DCE.8BB7CD0A-BAC0-C211-A0E9-4F988A8DFF75" supplierDependency=""><UML:Element.presentation>
+</UML:Element.presentation></UML:Class>
+<UML:Dependency xmi.id="DCE.597A72C2-676A-C403-825A-32461FBF4A25" owner="DCE.8BB7CD0A-BAC0-C211-A0E9-4F988A8DFF75" client="DCE.A333811C-FBCF-B54C-82ED-7F97F9FA78BC" supplier="DCE.2539B214-DEE9-FD12-1169-91AF26701A05"><UML:Element.presentation>
+</UML:Element.presentation></UML:Dependency>
+<UML:Class xmi.id="DCE.9D1E9AE1-869E-00ED-E5ED-8B1249F361DD" name="Unnamed" owner="DCE.8BB7CD0A-BAC0-C211-A0E9-4F988A8DFF75" supplierDependency="DCE.C831D2CE-C586-C39A-4EE3-11E90DA2064B"><UML:Element.presentation>
+</UML:Element.presentation></UML:Class>
+<UML:Dependency xmi.id="DCE.C831D2CE-C586-C39A-4EE3-11E90DA2064B" owner="DCE.8BB7CD0A-BAC0-C211-A0E9-4F988A8DFF75" client="DCE.19488190-D32C-3CF5-3A35-2F6ECB893C56" supplier="DCE.9D1E9AE1-869E-00ED-E5ED-8B1249F361DD"><UML:Element.presentation>
+</UML:Element.presentation></UML:Dependency>
+<UML:Class xmi.id="DCE.7A13D3D7-493A-0C03-1FA4-A7E43EF13ADC" name="Unnamed" owner="DCE.8BB7CD0A-BAC0-C211-A0E9-4F988A8DFF75" supplierDependency="DCE.A46B25E1-8BCA-1864-9C5C-EF57CDF16874"><UML:Element.presentation>
+</UML:Element.presentation></UML:Class>
+<UML:Dependency xmi.id="DCE.A46B25E1-8BCA-1864-9C5C-EF57CDF16874" owner="DCE.8BB7CD0A-BAC0-C211-A0E9-4F988A8DFF75" client="DCE.19488190-D32C-3CF5-3A35-2F6ECB893C56" supplier="DCE.7A13D3D7-493A-0C03-1FA4-A7E43EF13ADC"><UML:Element.presentation>
+</UML:Element.presentation></UML:Dependency>
+<UML:Class xmi.id="DCE.C2A843A3-EC98-5FD7-3DB9-F33687D0BC96" name="Unnamed" owner="DCE.8BB7CD0A-BAC0-C211-A0E9-4F988A8DFF75" supplierDependency="DCE.E5852250-204A-2462-AF47-DBB86794B626"><UML:Element.presentation>
+</UML:Element.presentation></UML:Class>
+<UML:Dependency xmi.id="DCE.E5852250-204A-2462-AF47-DBB86794B626" owner="DCE.8BB7CD0A-BAC0-C211-A0E9-4F988A8DFF75" client="DCE.19488190-D32C-3CF5-3A35-2F6ECB893C56" supplier="DCE.C2A843A3-EC98-5FD7-3DB9-F33687D0BC96"><UML:Element.presentation>
+</UML:Element.presentation></UML:Dependency>
+<UML:Class xmi.id="DCE.6B76AA1E-022A-8AF7-3D39-45A1D5E9BF1D" name="Unnamed" owner="DCE.8BB7CD0A-BAC0-C211-A0E9-4F988A8DFF75" supplierDependency="DCE.624EB4FD-3F4A-6DE2-D5D5-943F44DDF090"><UML:Element.presentation>
+</UML:Element.presentation></UML:Class>
+<UML:Dependency xmi.id="DCE.624EB4FD-3F4A-6DE2-D5D5-943F44DDF090" owner="DCE.8BB7CD0A-BAC0-C211-A0E9-4F988A8DFF75" client="DCE.19488190-D32C-3CF5-3A35-2F6ECB893C56" supplier="DCE.6B76AA1E-022A-8AF7-3D39-45A1D5E9BF1D"><UML:Element.presentation>
+</UML:Element.presentation></UML:Dependency>
+<UML:Class xmi.id="DCE.F29474AD-2045-D524-49D3-B2913A97D706" name="Unnamed" owner="DCE.8BB7CD0A-BAC0-C211-A0E9-4F988A8DFF75" supplierDependency=""><UML:Element.presentation>
+</UML:Element.presentation></UML:Class>
+<UML:Dependency xmi.id="DCE.0856CC65-3D99-4E56-407E-4B37D5DB536B" owner="DCE.8BB7CD0A-BAC0-C211-A0E9-4F988A8DFF75" client="DCE.19488190-D32C-3CF5-3A35-2F6ECB893C56" supplier="DCE.C8E4FBE9-81BB-CDAB-D99C-141E07739FEF"><UML:Element.presentation>
+</UML:Element.presentation></UML:Dependency>
+<UML:Class xmi.id="DCE.04428CF1-F5FD-0372-2548-B8B197FF9EDB" name="Unnamed" owner="DCE.8BB7CD0A-BAC0-C211-A0E9-4F988A8DFF75" supplierDependency=""><UML:Element.presentation>
+</UML:Element.presentation></UML:Class>
+<UML:Dependency xmi.id="DCE.C608E8BE-A6D4-1D62-A02B-4BF12A435E23" owner="DCE.8BB7CD0A-BAC0-C211-A0E9-4F988A8DFF75" client="DCE.5DE6A3BD-C050-0F85-D2EA-E3B0CDD85FFE" supplier="DCE.659BCF40-B8E5-29EB-6247-AC23DAB4F682"><UML:Element.presentation>
+</UML:Element.presentation></UML:Dependency></UML:Element.ownedElement><UML:Package.packageImport>
+<UML:PackageImport xmi.id="DCE.B5955E41-9086-AF3C-243E-3522A95F540A" importingPackage="DCE.8BB7CD0A-BAC0-C211-A0E9-4F988A8DFF75"><UML:PackageImport.importedPackage>
+<UML:Profile xmi.id="DCE.17269889-1A2B-CA86-7B16-7A0BCF82959C" name="Unnamed" isCloned="true" href="./ATMBankUML.etup#//*[@xmi.id=&apos;DCE.17269889-1A2B-CA86-7B16-7A0BCF82959C&apos;]" isDirty="false"/></UML:PackageImport.importedPackage><UML:Element.ownedElement>
+<UML:TaggedValue xmi.id="DCE.8E0AB56C-A715-6B41-310E-5151B7EB0B91" owner="DCE.B5955E41-9086-AF3C-243E-3522A95F540A" name="autoCreated">
+<UML:TaggedValue.dataValue>true</UML:TaggedValue.dataValue></UML:TaggedValue></UML:Element.ownedElement></UML:PackageImport></UML:Package.packageImport></UML:Project></XMI.content> </XMI>
